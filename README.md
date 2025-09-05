@@ -1,11 +1,31 @@
-# SQL-Data-Warehouse-Project
-Welcome to the Data Warehouse and Analytics Project repository! 🚀
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+# 📊 SQL Data Warehouse Project
 
-# 📖 Project Overview
-This project involves:
+In this project, I built a multi-layered Data Warehouse architecture using the Bronze–Silver–Gold framework:
 
-Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
-ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
-Data Modeling: Developing fact and dimension tables optimized for analytical queries.
-Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+🔹 Bronze Layer (Raw Data):
+
+Extracted data from multiple sources.
+
+Inserted the data into the Bronze Layer without modifications, preserving the original raw format.
+
+🔸 Silver Layer (Cleaned Data):
+
+Performed data cleaning, standardization, and transformations.
+
+Inserted the cleaned and structured data into the Silver Layer tables.
+
+🏅 Gold Layer (Curated Data):
+
+Combined and integrated data from the Silver Layer based on business rules and relationships.
+
+Built final business-ready datasets for reporting, analytics, and dashboards.
+
+# ✅ Key Steps
+
+Extract → Load → Transform (ELT) process.
+
+Ensured data quality, consistency, and reliability at each stage.
+
+Designed optimized queries for faster reporting.
+
+Final Gold Layer datasets are ready for BI tools and decision-making.
